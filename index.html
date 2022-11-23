@@ -16,6 +16,9 @@
                         btnBG: '#3F87F5',
                         logo: '#3E3E3E',
 
+                    },
+                    backgroundImage: {
+                        'bannerImg': "url('/images/banner.png')",
                     }
                 }
             }
@@ -27,7 +30,7 @@
     <!-- header section -->
     <header>
         <!-- navbar -->
-        <nav class=" container mx-auto px-16 flex justify-between my-10">
+        <nav class=" container mx-auto px-16 flex justify-between my-4">
             <div>
                 <h2 class="text-logo text-2xl font-bold">Abacus Convention Center</h2>
             </div>
@@ -53,7 +56,23 @@
 
 
         <!-- banner -->
-        <section>
+        <section class="bg-bannerImg bg-cover min-h-screen flex items-center justify-center flex-col space-y-10 ">
+            <h2 class="text-5xl font-semibold text-white text-center">The perfect venue for your <br>
+                next event</h2>
+
+            <p class="text-base font-light text-white text-center">Amet minim mollit non deserunt ullamco est sit
+                aliqua
+                dolor <br> do
+                amet sint.
+                Velit officia consequat duis
+                enim velit </p>
+
+            <button
+                class="bg-white text-btnBG py-2 px-10 rounded-sm transition duration-150 ease-out hover:ease-in hover:text-white hover:bg-btnBG font-bold text-base block mx-auto">
+                Book Now
+            </button>
+
+
 
         </section>
     </header>
